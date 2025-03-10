@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root {
+    --darkBlue: #2A324B;
+    --blue: #58699D;
+    --grey: #E1E5EE;
+    --white: #fff;
+}
+
+ul {
+    padding: 10px 20px;
+    li {
+       color: black;
+
+        a {
+            color: var(--blue);
+            
+        }
+    }
+}
