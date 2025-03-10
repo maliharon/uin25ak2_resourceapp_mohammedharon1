@@ -6,9 +6,18 @@
     --grey: #E1E5EE;
     --white: #fff;
 }
-body{
+:root{
     background-color: var(--grey);
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
+
+}
+
+#root{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 main {
@@ -17,9 +26,7 @@ main {
     min-height: 400px;
     min-width: 985px;
     max-width: 1000px;
-    margin-left: 110px;
     padding: 20;
+    margin: 0 auto;
    
-    
-    
 }   

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import resources from "../assets/js/resusser"
-import "../style/pageTitle.scss"
+import "../style/resources.scss"
 
 export default function PageTitle(){
   const { category } = useParams()

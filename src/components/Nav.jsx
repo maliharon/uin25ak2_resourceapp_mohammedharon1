@@ -8,13 +8,10 @@ export default function Nav() {
       <ul>
         {resources.map((res, index) => (
         <li key={index}>
-            <Link to={`/${res.category}`}>{res.category}</Link>
+            <NavLink to={`/${res.category}`} className="link">{res.category}</NavLink>
         </li> 
         ))}
       </ul>
     </nav>
-
-
-   
   );
 }
